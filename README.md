@@ -1,31 +1,31 @@
-Ex.05 Design a Website for Server Side Processing
-Date : 20-11-2023
-AIM:
+## Ex.05 Design a Website for Server Side Processing
+## Date : 20-11-2023
+## AIM:
 To design a website to find total surface area of a square prism in server side.
 
-FORMULA:
+## FORMULA:
 image
 
-DESIGN STEPS:
-Step 1:
+## DESIGN STEPS:
+## Step 1:
 Clone the repository from GitHub.
 
-Step 2:
+## Step 2:
 Create Django Admin project.
 
-Step 3:
+## Step 3:
 Create a New App under the Django Admin project.
 
-Step 4:
+## Step 4:
 Create python programs for views and urls to perform server side processing.
 
-Step 5:
+## Step 5:
 Create a HTML file to implement form based input and output.
 
-Step 6:
+## Step 6:
 Publish the website in the given URL.
 
-PROGRAM :
+## PROGRAM :
 index.html
 <html>
 
@@ -167,8 +167,8 @@ urlpatterns = [
     path('areaofrectangle/',views.rectarea,name="areaofrectangle"),
     path('',views.rectarea,name="areaofrectangleroot")
 ]
-OUTPUT:
+## OUTPUT:
 Alt text Alt text
 
-RESULT:
+## RESULT:
 The program for performing server side processing is completed successfully.
